@@ -1,0 +1,12 @@
+#summary about Arduino
+#labels Arduino
+
+= Arduino =
+
+*Arduino* is a single-board microcontroller and a software suite for programming it. The hardware consists of a simple open hardware design for the controller with an Atmel AVR processor (mostly ATMega168 or ATMega328) and on-board I/O  support. The software consists of a standard programming language and the boot loader that runs on the board.<br>
+
+= Links =
+ * [http://en.wikipedia.org/wiki/Arduino]<br>
+ * [http://arduino.cc]<br>
+ * [http://robocraft.ru/blog/arduino/14.html] (rus)<br>
+
