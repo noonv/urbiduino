@@ -1,0 +1,14 @@
+#summary about URBI
+#labels URBI,C
+
+= Introduction =
+*URBI* (Universal Real-time Behavior Interface) is an open source cross-platform software platform in *C++* used to develop applications for robotics and complex systems. URBI is based on the UObject distributed *C++* component architecture. 
+URBI includes the urbiScript orchestration language which is a parallel and event-driven script language. UObject components can be plugged into urbiscript and appear as native objects that can be scripted to specify their interactions and data exchanges.<br>
+
+
+= Links =
+
+ * [http://en.wikipedia.org/wiki/URBI]<br>
+ * [http://gostai.com]<br>
+ * [http://www.urbiforge.com]<br>
+ * [http://robocraft.ru/blog/algorithm/288.html] (rus)
