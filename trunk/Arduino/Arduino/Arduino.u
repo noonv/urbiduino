@@ -1,0 +1,61 @@
+
+"loading...".print;
+
+if (!hasSlot("Arduino"))
+	loadModule("Arduino");
+  
+function ArduinoInit ()
+{
+	"init variables...".print;
+	
+	// remove slot
+	if( isdef(Global.LOW) )
+		Global.removeSlot("LOW");
+	if( isdef(Global.HIGH) )
+		Global.removeSlot("HIGH");
+	if( isdef(Global.OUTPUT) )
+		Global.removeSlot("OUTPUT");
+	if( isdef(Global.INPUT) )
+		Global.removeSlot("INPUT");
+	if( isdef(Global.ANALOG) )
+		Global.removeSlot("ANALOG");
+	if( isdef(Global.PWM) )
+		Global.removeSlot("PWM");
+	if( isdef(Global.SERVO) )
+		Global.removeSlot("SERVO");
+	if( isdef(Global.SHIFT) )
+		Global.removeSlot("SHIFT");
+	if( isdef(Global.I2C) )
+		Global.removeSlot("I2C");
+	
+	
+	// set variables
+	var Global.LOW = 0;
+	var Global.HIGH = 1;
+	var Global.OUTPUT = 0;
+	var Global.INPUT = 1;
+	
+	var Global.ANALOG = 2;
+	var Global.PWM = 3;
+	var Global.SERVO = 4;
+	var Global.SHIFT = 5;
+	var Global.I2C = 6;
+	
+	// constant
+	LOW->constant = true; 
+	HIGH->constant = true; 
+	OUTPUT->constant = true; 
+	INPUT->constant = true; 
+	
+	ANALOG->constant = true; 
+	PWM->constant = true; 
+	SERVO->constant = true; 
+	SHIFT->constant = true; 
+	I2C->constant = true; 
+	
+	return;
+} |;
+
+ArduinoInit();
+
+"ready".print;
